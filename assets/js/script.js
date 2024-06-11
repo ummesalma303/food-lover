@@ -22,8 +22,6 @@ function showmoreImage() {
 // form validation 
 function handleContact(event) {
     event.preventDefault()
-    // console.log('contact');
-    // console.log(event.target);
     const email = event.target.email.value
     console.log(email);
     const element = document.getElementById('element')
