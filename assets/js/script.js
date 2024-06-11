@@ -19,8 +19,6 @@ function showmoreImage() {
         newImage.style.width = '800px';
     }
 }
-const btn = document.querySelector(".popular-btn");
-btn.innerText = 'see less';
 // form validation 
 function handleContact(event) {
     event.preventDefault()
