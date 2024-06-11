@@ -10,7 +10,6 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding: 5px 50px;
-    /* background-color: rgba(11, 63, 109, 0.274); */
 }
 .logo img{
     width: 80px;
@@ -146,7 +145,6 @@ nav ul{
     gap: 30px;
     width: 1240px;
     margin: 0 auto; 
-    /* background-color: #EFA964; */
     text-align: center;
 }
 /* card-1 */
@@ -244,4 +242,126 @@ nav ul{
     font-size: 13px;
     border: none;
     border-radius: 30px;
+}
+/* choose section start */
+.choose-container{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 60px;
+    width: 1240px;
+    margin: 0 auto;
+    text-align: center;
+}
+.choose-card{
+    padding: 40px 10px;
+    }
+.choose-card:hover{
+    border: 0.5px solid rgb(184, 183, 183);
+}
+.choose-card i{
+    background-color: #f1b27277;
+    color: #ce8b48;
+    padding: 9px;
+    font-size: 28px;
+    border-radius: 50%;
+}
+
+.choose-card h2{
+    font-size: 22px;
+    font-weight: 600;
+    margin: 9px 0;
+}
+.choose-card p{
+    font-size: 14px;
+    font-weight: 500;
+}
+/* client section code start */
+.client-items-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1240px;
+    margin: 0 auto;
+}
+.client-img-name-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.client-name h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.client-image h5{
+    font-size: 18px;
+    margin-top: 5px;
+}
+.client-img img{
+    border-radius: 50%;
+}
+.client-icon{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.client-icon i{    
+    background: none;
+    color: #ce8b48;
+    font-size: 23px;
+}
+.client-review-parent p{
+    text-align: center;
+    font-size: 15px;
+    width: 610px;
+}
+.client-image img{
+    width: 600px;
+}
+/* Subcribe section code start */
+.subscribe-section{
+    margin:90px 50px;
+    background-color: black;
+    color: #fff;
+    border-radius: 15px;
+}
+.subscribe-container{
+    display: flex;
+    align-items: center;
+    gap: 230px;
+    padding: 20px 70px;
+}
+.subscribe-imagen img{
+    width: 600px;
+}
+.subscribe-text h2{
+    font-size: 26px;
+}
+.subscribe-text p{
+    font-size: 15px;
+    margin: 12px 0 20px 0;
+    font-weight: 300;
+    color: rgb(209, 208, 208);
+}
+.input-btn-parent{
+    position: relative;
+}
+.input-btn-parent input{
+    padding: 14px 8px;
+    width: 480px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.subscribe-btn{
+    position: absolute;
+    top: 4px;
+    right: 34px;
+}
+.subscribe-btn button{
+    background-color: #da8e42;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
 }
