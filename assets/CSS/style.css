@@ -190,6 +190,7 @@ nav ul{
 }
 .popular-image img{
     width: 390px;
+    height: 260px;
     border-radius: 10px 10px 0 0;
 }
 .items-container{
@@ -243,6 +244,23 @@ nav ul{
     border: none;
     border-radius: 30px;
 }
+/* dom work  */
+.popular-container-2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 1240px;
+    margin: 0 auto;
+    gap: 30px;
+}
+.popular-container-2 img{
+    width: 390px;
+    height: 260px;
+    border-radius: 10px;
+}
+.popular-container-2 button{
+    background-color: #ce8b48;
+    color: #fff;
+}
 /* choose section start */
 .choose-container{
     display: grid;
@@ -254,7 +272,7 @@ nav ul{
 }
 .choose-card{
     padding: 40px 10px;
-    }
+}
 .choose-card:hover{
     border: 0.5px solid rgb(184, 183, 183);
 }
@@ -364,4 +382,66 @@ nav ul{
     color: #fff;
     border: none;
     border-radius: 10px;
+}
+#element p{
+    margin: 20px 0;
+}
+/* footer section start */
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    width: 1240px;
+    margin: 90px auto 30px auto;
+}
+/* footer items-1 */
+.footer-items-1{
+    text-align: center;
+}
+.footer-image img{
+    width: 110px;
+}
+.footer-items-1 p{
+    font-size: 15px;
+    text-align: center;
+    margin: 14px 0;
+    color: rgb(116, 115, 115);
+}
+.footer-items ul li{
+    list-style: none;
+}
+.footer-icon i{
+    margin: 10px 5px 0 5px 0;
+    background-color: #efa9647a;
+    color: #da8531;
+    padding: 8px;
+    border-radius: 50%;
+}
+.footer-icon i:nth-child(1){
+    padding: 8px 11px;
+}
+/* footer items-2 */
+.footer-items-2 h2{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.footer-items-2 ul li{
+    list-style: none;
+    margin-bottom: 9px;
+    font-size: 14px;
+    color: rgb(116, 115, 115);
+}
+.footer-icon-2{
+    text-align: right;
+    margin-right: 56px;
+}
+.footer-icon-2 i{
+    background-color: #ce8b48;
+    padding: 5px;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 50%;
 }
