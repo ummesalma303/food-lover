@@ -5,15 +5,12 @@
     font-family: "Inter", sans-serif;
     font-weight: 400;
 }
-header{
-    height: 100vh;
-}
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px 40px;
-    background-color: rgba(11, 63, 109, 0.274);
+    padding: 5px 50px;
+    /* background-color: rgba(11, 63, 109, 0.274); */
 }
 .logo img{
     width: 80px;
@@ -51,7 +48,7 @@ nav ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1260px;
+    width: 1240px;
     margin: 40px auto 0 auto;
 }
 /* left side content */
@@ -137,4 +134,34 @@ nav ul{
 }
 .img-txt-items span{
     color: red;
+}
+/* content section start */
+.contac-section{
+    margin: 60px auto;
+}
+.contac-parent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    gap: 30px;
+    width: 1240px;
+    margin: 0 auto; 
+    /* background-color: #EFA964; */
+    text-align: center;
+}
+/* card-1 */
+.contact-card i{
+    background-color: #F2973D;
+    color: #fff;
+    padding: 7px;
+    font-size: 16px;
+    border-radius: 50%;
+}
+.contact-card h3{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px 0;
+}
+.contact-card h5{
+    font-size: 13px;
 }
